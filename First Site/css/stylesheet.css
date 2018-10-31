@@ -1,0 +1,60 @@
+div {
+  text-align:left;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Rosario', sans-serif;
+}
+header {
+  max-width: 900px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-family: 'Rosario', sans-serif;
+  font-weight: bold;
+  background-image: url("../images/jars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 200px;
+}
+h1 {
+  margin: 0 0 80px 0;
+}
+.main {
+  max-width: 800px;
+  margin: 30px auto 0 auto;
+  padding: 0px 10px;
+  text-align: justify;
+}
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    padding: 8px 0;
+    margin: 160px 0 0 20px;
+    overflow: scroll;
+}
+.menu ul {
+  list-style: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline;
+  padding: 10px 10px;
+}
+#thispage {
+  font-weight: bold;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #9c1cc5;
+}
+.shoutout {
+  font-weight: bold;
+  font-size: 18px;
+}
